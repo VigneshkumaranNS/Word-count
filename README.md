@@ -6,20 +6,40 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
+Open visual studio code.
 
-### Step 2: 
- 
-### Step 3: 
+### Step 2:
+Create file with .py extension.
 
-### Step 4:  
+### Step 3:
+Start the program.
 
-### Step 5: 
+### Step 4:
+Write the code.
 
-### Step 6: 
+### Step 5:
+Run terminal for output of the given program.
+
+### Step 6:
+End the program.
 
 ## PROGRAM:
+```
+#Developed by:VIGNESH KUMARAN N.S 
+#Register Number:22008928
 
+num_words = 0 
+with open('count.txt','r') as f1: 
+    for i in f1:
+        word = i.split() 
+        num_words += len(word)
+print("number of words in the file = {}".format(num_words))
+```
 ### OUTPUT:
+### (i) 
+![w](./word.png)
+### (ii)
+![c](./count.png)
 
 
 
