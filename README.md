@@ -41,7 +41,5 @@ print("number of words in the file = {}".format(num_words))
 ### (ii)
 ![c](./count.png)
 
-
-
 ## RESULT:
 Thus the program is written to find the word count from a text.
